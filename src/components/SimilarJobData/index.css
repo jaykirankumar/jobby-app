@@ -1,0 +1,112 @@
+.similar-job-item-card {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.similar-job-logo-card {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.similar-job-logo-img {
+  height: 50px;
+  width: 50px;
+}
+.similar-job-logo-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+.similar-job-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.similar-job-logo-star-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.similar-job-icon-is {
+  height: 15px;
+  width: 15px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.similar-job-icon-card {
+  height: 20px;
+  width: 20śpx;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.similar-job-rating {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.similar-job-locations-salary-card-details-is {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+.similar-job-location-internship-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.similar-job-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.similar-job-headers {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+/* .package {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+} */
+.similar-job-description-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+.similar-job-description-header {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.similar-job-description {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-item-card {
+    width: 30%;
+  }
+}
